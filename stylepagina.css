@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2024/05/green-houseplants-aesthetic-wallpaper-scaled.jpg);
+    color: #333;
+}
+
+header {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/011/113/831/non_2x/aesthetic-abstract-gradient-green-wallpaper-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-for-your-design-vector.jpg);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.seccion {
+    flex: 1;
+    width: 250px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.seccion img {
+   
+    border-radius: 8px;
+}
+
+/* Aside */
+.container-aside {
+    flex: 1;
+    min-width: 400px;
+    
+}
+
+aside {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 1000px;
+    justify-content: center;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+.pie {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+footer p:first-child {
+    font-weight: bold;
+}
+.imgback img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+button {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    width: 340px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
